@@ -1,0 +1,740 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport"  content="width=device-width,  initial-scale=1">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ 
+<body ><br><br><br><br><br><br>
+<div class="active fixed-top">
+  
+<ul>
+<LI><A href="#body" style="font-size: 20px;"><i class=" yellow home icon"style="margin-left: 20%;font-size:30px;"></i> Home</A></LI>
+
+<li class="dropdown">
+  <a href="#Information" class="drobtn" style="font-size: 20px;"><i class="yellow pencil alternate icon" style="margin-left: 40%;font-size:30px;"></i>Personal Info</a>
+  <div class="dropdown-content">
+  <a href="#Education"> <h4>Education</h4></a>
+  <a href="#Skills"><h4> Skills</h4></a>
+  <a href="#Hobbies"><h4>Hobbies</h4></a>   
+  <A href="#Favourites"><h4> Favourites</h4></A>
+  
+  </div>
+</li>
+<li> <a href="#Image" style="font-size: 20px;"><i class=" yellow camera icon"style="margin-left: 20%;font-size:30px;"></i> Image Gallary</A> </li>
+
+<li class="dropdown">
+<a href="#contact" class="drobtn"  style="font-size: 20px;"><i class="yellow handshake icon"style="margin-left: 20%;font-size:30px;"></i>Contact Me</a>
+<div  class="dropdown-content">
+  <a href="https://www.instagram.com/siva_kalaivanan/"><h4> Instagram</h4></a>
+  <a href="https://www.facebook.com/siva.don.71271466"><h4>Facebook</h4></a>
+  <a href="https://twitter.com/home"><h4>Twitter</h4></a>
+  <a href="https://wa.me/qr/LIJYG44U55ZAF1"><h4> Whatsapp</h4></a>
+  <a href="https://web.telegram.org/z/"> <h4>Telegram</h4></a>
+  <a href="https://www.linkedin.com/in/siva-r-417a16222/overlay/contact-info/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJpKXFKMUQs%2BNoayJPYcHaA%3D%3D">
+  <h4>Linked In</h4></a>
+</div>
+</li>
+
+<li class="dropdown">
+<a href="#About" class="dropbtn"style="font-size: 20px;"><i class="yellow clipboard list icon"style="margin-left: 20%;font-size:30px;"></i>About Me</a>
+<div class="dropdown-content">
+<a href="files/resume.pdf"><h4>My Resume</h4></a>
+
+</div>
+</li>
+
+
+<li><a  href="" data-bs-toggle="collapse" data-bs-target="#siva" style="color:white ;font-size: 20px;">
+  <i class="yellow calendar outline icon"style="margin-left: 35%;font-size:30px;"></i>My Schedule</a></li>
+  
+<br><br><br><br><br><br>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=UTC&src=Y19jbGFzc3Jvb205MTJjZTc4YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb200OTg2ODk4NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21jOGVlZTE5ZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21mMDY1NTk2N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21kOGZkYTE1YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTAyMDAwODA3MTA5NTg2MzYxMzI0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTAzNjE3NzYyNDY1ODU5NzY4OTgyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAwMzk0NDIxNDY2MjAxMjY5MTExQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAyNjcxNzY0MTg2NzE1ODkyMDA2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAxMDE5NDgzNzQ3MDA5NDQ1OTE1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTE2NDY5NzI4MzI1Njg3OTEwMTU0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTE1MTAxNzc4NjM2NDQyNTMwNzUyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA0MjU3OTI3ODYxODgwNjIyNjY5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAwMDkwNDU2MTU4OTM4ODY3OTUxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTExOTM1NDEwNTgyMjM5NTMzMjUyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTExOTUzOTQ0MzgxOTg1NjgyNTEzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA4NDY0MDA3Mzg1MzM0MTQ2MzgyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTE2NzcxNjM4OTQyMDk4NzM4NjUxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTExMTgxNjE1MDc5Nzg3ODcxMDg4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAxNjg2ODE5MDQwOTY1NjAyODk2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA5NTc1MDExNzMyNzc0MDE2MTQ0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTE3MzU0MTcyODMxNTc5NjYzMDQ5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA5OTI5ODExOTkxMDU1MjAxMjgyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTAyOTUyNjExNjA3MTY3MTQ3ODM5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA3MjQyNDczMTA4MzU0NzAyMzY5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAyMTM0NjkwODA1NDA0Nzc3NjU3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTE2OTYxMTY0MTE5MjAwNDQ2NjQ4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTExNjY1NDg0MjQxMDU5MTM5NTU3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTEwMzg1OTQ4MTc4NTc3NzgxODYxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAxODIzMjI3MjY1OTUzNjU3NTM1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAyNzA2MjM0NTQ2NDcyNTM4OTY1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTE2Mjk0MzE5MzM3ODQ3MTUxNjU4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230047a8&color=%230047a8&color=%23007b83&color=%23202124&color=%230047a8&color=%230047a8&color=%2333B679&color=%23202124&color=%23137333&color=%237627bb&color=%237627bb&color=%23202124&color=%230047a8&color=%23202124&color=%23202124&color=%230047a8&color=%23c26401&color=%230047a8&color=%237627bb&color=%23c26401&color=%23007b83&color=%23202124&color=%23202124&color=%23202124&color=%230B8043&color=%230047a8&color=%230047a8&color=%237627bb&color=%23007b83&color=%23202124&color=%23202124&color=%23202124&color=%230047a8&color=%23137333" 
+style="margin-left: 800px; border-radius: 25px;" width="400" height="400" frameborder="0" scrolling="no" id="siva" class="collapse"></iframe>
+
+</ul></div>
+
+
+
+<section>
+<div class="screen">
+<div id="body">
+<div id="home">
+
+  <div style="background-image: url(images/back11.webp);"><br>
+   <br>
+<span style="color:gold ;font-weight:bold;font-size:60px;margin-left: 20px;">This is </span>
+<span style="color:rgb(255, 255, 255);font-size:50px;"> Siva</span><a style="color:gold ;margin-left:100px;font-size: 30px;"><b>From Madurai</b></a><br>
+  <hr></div>
+
+<marquee><br>
+  <a style="color:rgb(255, 238, 0); font-size: 35px;border-radius:10px;background-image: url(images/back6.jpg);
+  border:5px solid;padding: 10px; box-shadow: 0 0 3px 1px #eed708ee;">  DESIGNER , FRONT END DEVELOER , PHOTOGRAPHER , FOOTBALL PLAYER </a><br>
+</marquee>
+<br>
+<div class="container2">
+  <img src="images/back13.jpg" class="image5">
+  <div class="overlay">
+  </div>
+</div><BR><BR><BR>
+
+
+<div class="paragraph2">
+  <a href="#Information"><div class="w3-panel w3-card " style="margin-left: 5%;width:90%;
+  border: 3px solid;padding: 10px; box-shadow: 0 0 3px 1px #f1f1efee;background-image:url(images/back6.jpg);color:gold;font-family: serif;">
+  <h1>Personal Information</h1>
+    <h3>My personal information includes any information about my identityEducation, medical conditions,skills,
+    cources,native,hobbies,favourits that is collected, stored, and communicated by schools or technology .</h3></p></div></a>
+
+    <br><a href="#contact"><div class="w3-panel w3-card-2 "style="margin-left: 5%;width:90%;
+  border: 3px solid;padding: 10px; box-shadow: 0 0 3px 1px #f1f1efee;background-image:url(images/back6.jpg);color:gold;font-family: serif;"><h1>Contact Me</h1>
+    <h3>personal information includes any information about my Facebook,imstagram,twitter,whatsapp,linked in anything
+       else that is  collected,stored and communicated by  schools or technology vendors on behalf of schools that is particular
+        to that individual student.</h3><br></div></a></div><br><br>
+
+<div class="paragraph2">
+  <a href="#About"><div class="w3-panel w3-card-3 " style="margin-left: 5%;width:90%;
+    border: 3px solid;padding: 10px; box-shadow: 0 0 3px 1px #f1f1efee;background-image:url(images/back6.jpg);color:gold;font-family: serif;"><h1>About Me</h1>
+      <h3> Know i pursuing Bacholer of Engineering ComputerScience departement in Christ the king Engineering College
+         at Karamadai.As i am very strong as Python and C programming languages And I also learn as front end developer.<br></h3></p></div></a>
+  
+      <br><a href="#Feedback"><div class="w3-panel w3-card-4 "style="margin-left: 5%;width:90%;
+    border: 3px solid;padding: 10px; box-shadow: 0 0 3px 1px #f1f1efee; background-image:url(images/back6.jpg);color:gold;font-family: serif; "><h1>Feedback</h1>
+      <h3>Feedback is a vital part of any leader’s skillset. Project managers, team leaders, teachers, 
+        coaches develop this skill over the course of their careers.</h3><br></div></a></div><br><br>
+    
+  
+       
+        <A href="#body" style="margin-right:10% ;"><i class="green chevron circle up icon" style="font-size: 40PX; margin-right: 10px;"></i></A>
+</div>
+</div><br>
+
+
+
+<div id="body">
+   <div id="Information"><br>
+        <h2><a href="https://www.oaic.gov.au/privacy/your-privacy-rights/your-personal-information/what-is-personal-information#:~:text=For%20example%2C%20personal%20information%20may,credit%20information">
+            <i class=" red pencil alternate icon t"  style="font-size:44px " ></i></a>
+              <span style="color: gold; font-family:Arial, Helvetica, sans-serif;font-size: 40px;">Personal </span>
+              <span style="color:rgb(182, 59, 155) ;font-size:40px;">Information</span></a>
+              <hr style="width:100%;text-align:left;margin-left:0;color: hsl(60, 100%, 100%);height: 2px;">
+<div class="img2">
+        <p><link rel="stylesheet" href="css/photo.css">
+            <div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+              <img src="images/my3.jpg"  style="width:450px;height:450px; border-radius: 10px;">
+</div>
+          <div class="flip-card-back">
+                    <h1>My Infermation</h1> 
+                <h2>Skills</h2> 
+                <h2> Education</h2>
+                <h2> Hobbies</h2>
+                <h2> Strength</h2>
+                <h2> Certification</h2>
+                <h2> Image Gallary</h2>
+</div>
+</div>
+</div> </div> 
+<A style="color:#fffafa; font-family:serif;font-size: large;">
+  <h1>Name    : Siva R</h1><br />
+  <h1>D.O.B   : 04-03-2002</h1><br />
+  <h1>Skills  : Front End Developer</h1><br />
+  <h1>Native  : Sivaganga</h1><br />
+  <h1>Mobile  : 8270657156</h1>
+</A></p>
+<hr>
+<H3>My personal information includes any information about myidentity,Education, medical conditions,skills,cources,native,
+        hobbies,favourits anything else that is collected, stored, and communicated by schools or technology vendors on behalf of 
+        schools that is particular to that individual student.This includes name, address, names of parents or guardians, date of birth,
+         grades, attendance, disciplinary records,  for lunch  programs.</h3><br>
+
+<div class="paragraph3">
+  <h2 style="text-align:left;color: gold;">Education</h2>
+<div class="card" style="box-shadow:10px 10px ;">
+  <img src="images/Education.jpg"  style="width:100%">
+ <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <a href="#Education"><button>More Details..</button></a>
+</div>
+
+<h2 style="text-align:left;color: gold;">Skills</h2>
+<div class="card"style="box-shadow:10px 10px;">
+  <img src="images/skills/main.jfif"  style="width:100%">
+ <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <a href="#Skills"><button>More Details..</button></a>
+</div>
+
+<h2 style="text-align:left;color: gold;">Gallary</h2>
+<div class="card"style="box-shadow:10px 10px ;">
+  <img src="images/galary/main.webp"  style="width:100%">
+ <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <a href="#Image"><button>More Details..</button></a>
+</div>
+
+<h2 style="text-align:left;color: gold;">Hobbies</h2>
+<div class="card"style="box-shadow:10px 10px ;">
+  <img src="images/hobbies/main.jfif"  style="width:100%">
+ <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <a href="#Hobbies"><button>More Details..</button></a>
+</div></div>
+
+<div class="paragraph4">
+  <h2 style="text-align:left;color: gold;">Favourites</h2>
+  <div class="card"style="box-shadow:10px 10px ;">
+  <img src="images/favourite/MAIN4.jpg"  style="width:100%;">
+ <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <a href="#Favourites"><button>More Details..</button></a>
+</div>
+
+<h2 style="text-align:left;color: gold;">Certifications</h2>
+<div class="card"style="box-shadow:10px 10px ;">
+  <img src="images/certificate/MAIN2.webp"  style="width:100%">
+ <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <a href=""><button>More Details..</button></a>
+</div>
+</div>
+<A href="#Information" style="margin-right:10% ;"><i class="green chevron circle up icon" style="font-size: 40PX; margin-right: 10px;"></i></A>
+
+</div></div><br>
+
+
+<div id="body">
+<div id="Education">
+
+  <marquee><br><i class="  yellow graduation cap icon"style="font-size:40px;"></i><span style="color: gold; font-family: Georgia, 'Times New Roman', Times, serif;font-size: 40px;">
+Education </span>
+<span style="color:rgb(221, 50, 184) ;font-size:40px;"> Details</span><br></marquee>
+<hr style="width:100%;text-align:left;margin-left:0;color: hsl(60, 100%, 100%);height: 2px;"><br>
+<span style="color: rgb(37, 204, 37);font-size: 40px;"> Click my school,college photos we can see more details</span> <br> 
+<hr style="width:100%;text-align:left;margin-left:0;color: #fffffd;height: 2px;">
+<h1>O.V.C Higher Secondary School,Manamadurai,Sivaganga-630606</a></h1><br>
+<a href="https://www.justdial.com/Sivaganga/OVC-Higher-Secondary-School-Manamadurai-Sivaganga/9999P4575-4575-180101062359-W1A9_BZDET
+/photos"><img src="images/edu2.jfif"width="400px" height="200px"style="border-radius: 5%;border:5px solid;padding: 10px; box-shadow: 0 0 3px 1px #eed708ee;" ></a>
+<a style="color: rgb(70, 224, 252);"><h1> Welcome to OVC</h1></a>
+<P class="justify"style="font-size: 20px;">O.V.C.HIGHER SECONDARY.SCHOOL,MANAMADURAI was established in 1941 and it is managed by the Pvt.
+   Aided. It is located in Urban area. It is located in MANAMADURAI block of SIVAGANGA district of Tamil Nadu. T
+   he school consists of Grades from 1 to 5. The school is Co-educational and it doesn't have an attached pre-primary section. 
+  The school is N/A in nature and is not using school building as a shift-school. </P>
+<a style="text-align: center;">
+<table class="table" style="width:500px; height: 150px; margin-left: 400px; ">
+<thead>
+<tr class="table-danger">
+    <th> SCHOOL</th>
+    <th> MARKS</th>
+    <th> PERCENTAGE</th>
+</tr>
+                          </thead>
+                                                                        <tbody>
+<tr class="table-primary">
+    <td> 10th Std</td>
+    <td> 436</td>
+    <td> 87%</td>
+    </tr>
+<tr class="table-warning">
+    <td> 12th Std</td>
+    <td> 897</td>
+    <td> 75%</td>
+     </tr>
+</tbody>
+</table ></a>
+<hr style="width:100%;text-align:left;margin-left:0;color: #fafaf6;height: 2px;">
+<h1>Christ the King Engineering College,Karamadai,Coimbatore-641104.</a></h1><br>
+<a  href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjR3r7csvf3AhVHRmwGHdEfChgQjBB6BAgTEAE&url=https%3A%2F%2Fwww.ckec.ac.in%2Fprofile.php&usg=AOvVaw2GTYiFQuTmpo2bLLIwrXEH">
+  <img src="images/college.png" width="400px" height="200px"style="border-radius: 5%;border: 6px solid;padding: 10px; box-shadow: 0 0 3px 1px #eed708ee;"></a>
+  <a style="color: rgb(83, 201, 236);"><h1> Welcome to CKEC</h1></a><br>
+  <P class="justify" style="font-size: 20px;"> This college has been established by Rev.Fr.Dr.J.E.Arulraj, MMI and managed by DMI Sisters. 
+    This is approved by the Government of Tamilnadu and recognized by AICTE, affiliated to Anna University, Chennai. 
+    DMI is known for its time-honorable tradition of imparting quality education to the society and rendering social 
+    service without discrimination.</P>
+
+<a style="text-align: center;">
+<table class="table" style="width:500px; height: 100px; margin-left: 400px;">
+<thead>
+<tr class="table-danger">
+<th> COLLEGE</th>
+<th> CGPA</th>
+<th> PERCENTAGE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="table-warning">
+<td> 7th Sem</td>
+<td> 7.5</td>
+<td> 75%</td>
+</tr>
+</tbody>
+</table></a><br>
+<A href="#Education"><i class=" green chevron circle up icon" style="font-size: 40PX; align-items: right ;"></i></A>
+</div></div><br>
+
+
+
+<div id="body">
+<div id="Skills">
+ <marquee><br> <i class="yellow star outline  icon"style="font-size:40px;"></i><span style="color:gold; font-family: Georgia, 'Times New Roman', Times, serif;font-size:40px;">My </span>
+<span style="color:yellow; font-size: 40px;">Skills</span></marquee><br>
+<hr style="width:100%;text-align:left;margin-left:0;color: #fdfdfc;height: 2px;">
+<A style="color:rgb(33, 137, 235);"><h2>C programming Language</h2></A><br>
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj1-KuK7Kr4AhXjSGwGHWkiAnsQFnoECAQQAQ&url=https%3A%2F
+%2Fwww.programiz.com%2Fc-programming&usg=AOvVaw37pAKfSGf4dJOYsSYs5m1T"><img  src="images/skills/c.webp" width="500" height="170" 
+style="animation:shake 3s ;animation-iteration-count: infinite;overflow:visible;border-radius: 20px;
+border: 3px solid;padding: 10px; box-shadow: 0 0 3px 1px #eed708ee;"></a><h3>C is a powerful general-purpose programming language.
+It can be used to develop software like operating systems, databases, compilers, and so on. C programming is an excellent language
+to learn to program for beginners.Our C tutorials will guide you to learn C programming one step at a time.We focus on simplicity. 
+Programming tutorials and examples written in simple, understandable language for beginners.</h3><br>
+<div class="progress" style="height: 20px;margin-left:15% ;width: 70%;border-radius: 20px;transition: 1s;transition-duration: 3s;
+
+ box-shadow: 0 0 3px 1px #eed708ee;">
+<div class="progress-bar bg-primary"style="width:80%;border-radius:10px"><h3>80%</h3> </div></div><hr> 
+
+
+<A style="color:rgb(233, 241, 243);"><h2> Python programming Language</h2></A><br>
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiq9P7O_6v4AhUFR2wGHa7DCM4QjBB6BAgGEAE&url=https%3A%2F%2Fwww.python.
+org%2Fabout%2Fgettingstarted%2F&usg=AOvVaw1MxcY_lBYm1drnwuZfanDa"><img src="images/skills/py.jfif"width="500" height="170" 
+  style="animation:shake 2s ;animation-iteration-count:infinite;overflow:visible;border-radius: 20px;
+  border: 3px solid;padding: 10px; box-shadow: 0 0 3px 1px #eed708ee;"></a>
+  <h3>The Python Software Foundation (PSF) is a 501(c)(3) non-profit corporation that holds the intellectual property rights behind
+  the Python programming language. We manage the open source licensing for Python version 2.1 and laterand own and protect the 
+  trademarks associated with Python. We also run the North American PyCon conference annually, support other Python
+  conferences around the world.
+ </h3><br>
+<div class="progress" style="height: 20px;margin-left:15% ;width: 70%;border-radius: 20px;
+box-shadow: 0 0 3px 1px #eed708ee;">
+<div class="progress-bar bg-secondary"style="width:60%;border-radius:10px; "><h3>60%</h3> </div></div><hr> 
+
+
+<A style="color:rgb(42, 236, 236);"><h2>Front end Development</h2></A><br>
+<span class="fa fa-star checked" style="font-size:30px ;"></span>
+<span class="fa fa-star checked" style="font-size:30px ;"></span>
+<span class="fa fa-star checked" style="font-size:30px ;"></span>
+<span class="fa fa-star checked" style="font-size:30px ;"></span>
+<span class="fa fa-star" style="font-size:30px ;"></span><br><br>
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjV5daw_6v4AhVKRmwGHfffCEIQFnoECCMQAQ&url=https%3A%2F%2Ffrontendmasters.
+com%2Fbooks%2Ffront-end-handbook%2F2018%2Fwhat-is-a-FD.html&usg=AOvVaw0RCKDtUc_jIl6IFH33TyHJ"><img src="images/skills/frnd.jfif"width="500" height="170" 
+  style="animation:shake 1s ;animation-iteration-count: infinite;overflow:visible;border-radius: 20px;
+  border: 3px solid;padding: 10px; box-shadow: 0 0 3px 1px #eed708ee;"></a>
+  <h3>Our organization is looking for a Front End Developer who can utilize HTML, CSS and jQuery to develop effective user
+  interfaces on the company website and mobile apps released to the public. The successful candidate will work closely with 
+  our web development and software design teams to update the website and internal web tools to make them more efficient. 
+  The front end developer will also be responsible .</h3><br><br>
+  <A href="#Skills"><i class=" green chevron circle up icon" style="font-size: 40PX; align-items: right ;"></i></A>
+
+</div>
+</div>
+
+
+
+
+
+<div id="body"><BR>
+<div id="Image">
+
+  <marquee><br><i class="yellow camera icon"style="font-size:40px;"></i><span style="color:gold;font-size:40px ;"> Image</span>
+  <span style="color: yellow;font-size:40px;"> Gallary</span></marquee><BR>
+    <hr style="width:100%;text-align:left;margin-left:0;color: #ffffff;height: 2px;">
+    <span style="color: yellow;font-size:40px;">My Photos</span><BR>
+      <hr style="width:100%;text-align:left;margin-left:0;color: #ffffff;height: 2px;"><br>
+    <br><br><br><br>
+<div class="rotate">
+  <div class="box"><br><br>
+    <span style="--i:1;"><img src="images/galary/my1.jpg" width="250px" height="250px"></span>
+    <span style="--i:2;"><img src="images/galary/my2.jpg" width="250px" height="250px"></span>
+    <span style="--i:3;"><img src="images/galary/my3.jpg" width="250px" height="250px"></span>
+    <span style="--i:4;"><img src="images/galary/my4.jpg" width="250px" height="250px"></span>
+    <span style="--i:5;"><img src="images/galary/my5.jpg" width="250px" height="250px"></span>
+    <span style="--i:6;"><img src="images/galary/my6.jpg" width="250px" height="250px"></span>
+    <span style="--i:7;"><img src="images/galary/my7.jpg" width="250px" height="250px"></span>
+   <span style="--i:8;"><img src="images/galary/my8.jpg" width="250px" height="250px"></span>
+    <span style="--i:9;"><img src="images/galary/my9.jpg" width="250px" height="250px"></span>
+
+  </div></div><br><br><br><br><br>
+
+  <hr style="width:100%;text-align:left;margin-left:0;color: #ffffff;height: 2px;">
+  <span style="color: yellow;font-size:40px;">My Captures</span><BR>
+    <hr style="width:100%;text-align:left;margin-left:0;color: #ffffff;height: 2px;">
+  <a style="color: rgb(55, 229, 241);"> <h3> Clik On MY Small Images</h3>
+  <link rel="stylesheet" href="css/image show.css">
+<div class="row"><br><br>
+      <div class="column">
+        <img src="images/my capture/san1.jpg" style="width:40%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/my capture/san11.jpg" style="width: 40%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/my capture/san3.jpg" style="width:40%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/my capture/san4.jpg" style="width:40%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/my capture/san5.jpg" style="width:40%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/my capture/san6.jpg" style="width: 40%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/my capture/san7.jpg" style="width:40%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/my capture/san8.jpg" style="width: 40%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/my capture/san12.jpg" style="width: 40%" onclick="myFunction(this);">
+      </div>
+ 
+ 
+
+<div id="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn"> </span>
+    <img id="expandedImg" style="width:40%" >
+    </div>
+    
+    <script>
+    function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+    }
+  </script></div><br>
+  <A href="#Image"><i class="green chevron circle up icon " style="font-size: 40PX; align-items: right ;"></i></A>
+  </div></div><br><br>
+
+  
+  
+  
+  
+<div id="body">
+<div id="Hobbies">
+  <marquee><br><i class="  yellow child icon"style="font-size:40px;"></i><span style="color:rgb(40, 214, 245);font-size:40px ;"> Hobbies</span></marquee><br>
+    <hr style="width:100%;text-align:left;margin-left:0;color: #fffffd;height: 2px;">
+    <a style="color: gold;"> <h2>1.Playing Online Games</h2></a>
+    <a style="font-family:Arial, Helvetica, sans-serif ;font-size: large;">An online game is a video game that is either partially or primarily played through the Internet or any other computer network available.
+       Online games are ubiquitous on modern gaming platforms, including PCs, consoles and mobile devices, and span many genres, including first-person shooters, strategy games, and massively multiplayer online role-playing games (MMORPG).
+       In 2019, revenue in the online games segment reached $16.9 billion.
+       <video width="600" height="300"  controls>
+       <source src="vedios/vedio1.mp4" type="video/webm"></video> </a>
+
+    <a style="color: gold;"> <h2> 2.Watch Crime Stories</h2></a>
+    <a class="img8"> <p><img src="images/siva21.jpg" height="200px"width="200px" style="border-radius: 5%;border: 3px solid;padding: 10px; 
+    box-shadow: 0 0 3px 1px #eed708ee;"></a><br>
+    <a style="font-family:Arial, Helvetica, sans-serif ;font-size: large;">
+        Crime fiction, detective story, murder mystery, mystery novel,
+        and police novel <br><br> are terms used to describe narratives that centre on criminal acts <br><br>and especially on the investigation,
+        either by an amateur or a <br><br>professional detective, of a serious crime, generally a murder.<br><br>
+</p></a>
+<br>
+
+<p style="color:gold;font-size: 30px;"> 3.Playing Cricket</p>
+<a class="img9">
+  <img
+    src="gif/cricket.webp"height="200px"width="200px"alt="siva"style="border-radius:5%;border:3px solid;padding:10px;box-shadow:0 0 3px 1px #eed708ee;">
+</a>
+<br>
+<p
+  style='font-family: serif;font-size: 25px;'>
+  Cricket is a bat-and-ball game played between two teams of eleven
+  players each on a field at the centre of which is a 22-yard
+  (20-metre) pitch with a wicket at each end, each comprising two
+  bails balanced on three stumps. The game proceeds when a player on
+  the fielding team, called the bowler, "bowls" (propels) the ball
+  from one end of the pitch towards the wicket at the other end, with
+  an "over" being completed once they have legally done so six times.
+  <br></p>
+<br>
+<p style="color:gold;font-size: 30px;"> 4.Searching Internet</p>
+<a class="img8">
+  <img
+    src="images/logo5.png"height="200px"width="200px"alt="siva"style="border-radius:5%;border:3px solid;padding:10px;box-shadow:0 0 3px 1px #eed708ee;">
+</a>
+<br>
+<p
+  style='font-family: serif;font-size: 25px;'>
+  C Internet is the foremost important tool and the prominent resource
+  that is being used by almost every person across the globe. It
+  connects millions of computers, webpages, websites, and servers.
+  Using the internet we can send emails, photos, videos, messages to
+  our loved ones. 
+  <br></p>
+<br><br>
+<A href="#Hobbies"><i class="green chevron circle up icon " style="font-size: 40PX; align-items: right ;"></i></A>
+</div></div>
+
+
+<div id="body"><br>
+<div id="Favourites">
+  <br>
+  <marquee><br>
+<i class="  yellow heart icon"style="font-size:40px;"></i><span style="color:rgb(65, 214, 252);font-size:40px ;">My Favourites </span></marquee>
+  <hr style="width:100%;text-align:left;margin-left:0;color: #fdfdfc;height: 2px;"><br>
+
+<a style="color: gold;"> <h2> 1.Favourite Book</h2></a>
+<a class="img8" href="images/favourite/horry.pdf"> <p><img src="images/HORRY.png" height="150px"width="150px" style="border-radius: 5%;">
+<a style="font-family:serif ;font-size: 40px;color: rgb(10, 239, 247);">
+<h1>Harry Potter</h1></a> <h3 style="font-family:serif ;font-size:25px;">Harry botter is a series of seven fantasy novels written by British author J. K. Rowling. 
+The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley,
+all of whom are students at Hogwarts School of Witchcraft and Wizardry. </h3></p>
+<br><br>
+
+<a style="color: gold;margin-left: 200px;"> <h2>2.Favourite Story</h2></a>
+<a class="img9"href="images/Favourite/ramayanam.pdf"> <p><img src="images/ramayanam.webp" height="150px"width="150px" style="border-radius: 5%;">
+<a style="font-family:serif ;font-size:40px;color: aqua;">
+<h2>Ramayana</h2></a> <h3 style="font-family:serif ;font-size:25px;"> one of the largest ancient epics in world literature. 
+It consists of nearly 24,000 verses (mostly set in the Shloka/Anustubh meter), divided into seven kanadas
+the first and the seventh being later additions. Scholars' estimates for the earliest stage of the text range from the 7th 
+to 4th centuries BCE,with later stages extending up to the 3rd century CE.</h3></p><br><br>
+
+<a style="color: gold;"> <h2>3.Favourite Song</h2></a><br>
+<a class="img8"> <p><img src="images/siva22.jpg" height="170px"width="200px" style="border-radius: 10px;">
+ 
+<a style="font-family:serif ;font-size:40px;color: aqua;">
+<h1 >I am Unstoppable....</h1>  
+</p>
+<audio controls>
+<source src="audios/unstop.mpeg" type="audio/mpeg"> <a href="audios/unstop.mpeg" download> <i class=" download icon" style="font-size: 40px; " ></i></a>
+</audio><br><br>
+<a style="color: gold;margin-left: 200px;"> <h2>4.Favourite Person</h2></a><br>
+<a class="img9"href="https://en.wikipedia.org/wiki/MS_Dhoni"> <p><img src="images/favourite/fav7.jpg" height="150px"width="150px" style="border-radius: 5%;">
+<a style="font-family:serif ;font-size:40px;color: aqua;">
+<h2>MS.Dhoni...</h2></a> <h3 style="font-family:serif ;font-size:25px;"> Dhoniiiii finishes off in style. 
+  A magnificent strike into the
+  crowd. India lift the World Cup after 28 years. The party's
+  started in the dressing room. And it’s an Indian captain, who’s
+  been absolutely magnificent, in the night of the final.’</h3></p><br>
+  <br><br>
+  <A href="#Favourites" style="margin-right:10% ;"><i class="green chevron circle up icon" style="font-size: 40PX; margin-right: 10px;"></i></A>
+</div>
+</div><br><br>
+
+
+ 
+<div id="body" ><br><br>
+<div id="contact">
+<span  style="color: rgb(25, 233, 36); font-size:50px;">  <i class="yellow handshake icon" style="font-size: 50px;margin-top: 30px;"></i>Contact </span>
+<span style="color: rgb(221, 241, 33); font-size:50px;">Me</span><button class="ui google plus button" style="margin-left: 200px;width: 170px;">
+  <i class="google plus icon"></i>Google plus</button></a>
+<button class="ui vk button" style="margin-left: 50px;width: 170px;">
+  <i class="vk icon"></i>App Store</button></a><br>
+<hr style="width:100%;text-align:left;margin-left:0;color: hsl(60, 100%, 100%);height: 2px;"><br>
+
+<div class="img3">
+<p><link rel="stylesheet" href="css/photo.css">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<img src="gif/siva4.gif"  style="width:450px;height:450px; border-radius: 40px;">
+</div>
+<div class="flip-card-back">
+              <h1>Contact Me</h1> 
+              <h2>Facebook</h2> 
+              <h2>Whatsapp</h2>
+              <h2> Instagram</h2>
+              <h2> Twitter</h2>
+              <h2> Linked In</h2>
+</div>
+</div>
+</div> </div><br>
+
+<A style="color: rgb(23, 221, 235);"><h2> Office location</h2></A><BR> 
+<a href="" data-bs-toggle="collapse" data-bs-target="#siva1"><i class="red map marker alternate icon " style="font-size:34px; margin-left:10px ;"></i></a><BR>
+     
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15665.831395124425!2d76.99885565!3d11.00423425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1653551900143!5m2!1sen!2sin"
+style="border-radius: 25px;" width="600" height="400" frameborder="2px" scrolling="no" id="siva1" class="collapse"></iframe><br>
+  
+<A style=" color:rgb(247, 242, 242); font-family: Arial, Helvetica, sans-serif;">
+<h3> personal information includes any information about my Facebook,
+imstagram,twitter,whatsapp,linked in anything else that is collected,stored and communicated by 
+schools or technology vendors on behalf of schools that is particular to that individual student.If you want to contact with me just message me online social medias.
+And then you informed any sutiuation for contact with an email.Send your mail for my account.</h3></A></p><br><br>
+<a href="https://www.facebook.com/siva.don.71271466" style="font-size: 30PX;"><i class="yellow facebook square icon"style="font-size:30px;" ></i> </a>  
+<a href="https://www.instagram.com/siva_kalaivanan/" style="font-size: 30PX;"><i class="yellow instagram icon" style="font-size: 30px;"></i></a>
+<a href="https://www.linkedin.com/in/siva-r-417a16222/overlay/contact-info/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJpKXFKMUQs%2BNoayJPYcHaA%3D%3D" style="font-size: 30PX;"><i class="yellow linkedin icon" style="font-size: 30px;"></i></a>
+<a href="https://web.telegram.org/z/"style="font-size: 30PX;"><i class=" yellow telegram plane icon" style="font-size: 30px;"></i></a>
+<a href="https://twitter.com/home"style="font-size: 30PX;"><i class="yellow twitter icon" style="font-size: 30px;"></i></a>
+<a href="https://wa.me/qr/LIJYG44U55ZAF1"style="font-size: 30PX;"><i class="yellow whatsapp icon"style="font-size:30px;"></i></a>
+<br><br>
+<A style=" color:rgb(247, 242, 242); font-family: Arial, Helvetica, sans-serif;">
+  <h3>
+I think it should always be "contact me" as contact is a transitive verb and should be followed by an object. 
+But could someone clarifies? Is "contact with me" correct usage in some context.I think it should always be "contact me" as
+ contact is a transitive verb and should be followed by an object.  But could someone clarifies? Is "contact with me" correct usage in
+  some context.</h3></A>
+<BR><br><br><br>
+<hr><br><br>
+
+
+<div class="paragraph">
+
+<div class="column1"><br><br>
+ <form action="#Home">
+      <a style="color:#000000 ;"> <h1> Contact Us</h1></a><br><br>
+      <label for="fname"><a style="color: rgb(0, 0, 0);text-decoration: none;"><h2>Name   :</h2></a></label>
+      <input type="text" id="name" name="name" ><br><BR><br>
+      <label for="lname"><a style="color: rgb(0, 0, 0);text-decoration: none;"><h2>Ph No  :</h2></a></label>
+      <input type="number" id="number" ><br><br><br>
+      <label for="lname"><a style="color: rgb(0, 0, 0);text-decoration: none;"><h2>Email  :</h2></a></label>
+      <input type="email" id="email" name="email" ><br><br><br>
+    <label for="comments"><a style="color:rgb(0, 0, 0);text-decoration:none;"> <h2>Remark :</h2></a></label>
+      <input type="text" id="comments" rows="5" ><br><br><br><br>
+      <a href="#contact"><input type="button"  value="Send " onclick="myFunction1()" style="font-size:20px;"></a><br><br><br><br>
+    </form><br><BR>
+    </div><br>
+
+<div class="column2"><br><br>
+        <a style="color: rgb(0, 0, 0);text-align: left;text-decoration: none;text-align:center;"> <h1> Address:</h1></a>
+       <a style="margin-left:10px;color: rgb(0, 0, 0);text-decoration: none;"> <h3> 1/26 B, Kattu Udaikulam, Manamadurai</h3>
+       <h2> Sivaganga-630606</h2></a><br>
+       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31461.117418353602!2d78.4598258433468!3d9.711761796745867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00e346569f0895%3A0xd4ad3b5524bdbb8f!2sSIPCOT%20Manamadurai!5e0!3m2!1sen!2sin!4v1654492357711!5m2!1sen!2sin"
+         width="85%" height="330" style="border-radius: 20px;"></iframe><br><br>
+</div><br><br>
+</div>
+<br>
+      <A href="#contact" style="margin-right:10% ;"><i class="green chevron circle up icon" style="font-size: 40PX; margin-right: 10px;"></i></A>
+</div>
+</div><br><br>
+
+
+
+<div id="body">
+<div id="About"><br> <br>
+  <span style="color:rgb(223, 41, 168);font-weight:bold;font-size:60px;">
+    <i class="yellow clipboard list icon"style="margin-left:1%;font-size:50px;"></i>About</span>
+    <span style="color:green ;font-weight:bold;font-size:60px;"> Me</span><br>
+    <hr style="width:100%;text-align:left;margin-left:0;color: hsl(60, 100%, 100%);height: 2px;">
+<p style="color:rgb(255, 255, 255);font-size:40px;font-family: serif;">Iam Siva ..From Madurai</p>
+<p style="color:rgb(155, 146, 146);font-size: 30px;font-family: serif;"> My famly consists of four members. My strength was Adaptoble
+  person and good memarable person.My aim is get a good job for my
+  carrier both. My hobbie is watch crime stories and travelling
+  lot of everyday and more places. Thanking You.</p>
+
+
+  <br>
+<br><br>
+  <div class="paragraph">
+
+    <div class="column1"><br>
+     <p style="font-size: 24px;color:rgb(7, 8, 8);font-family: serif;" >In addition to the uses shown below, about is used after some verbs,
+      nouns, and adjectives to introduce extra information. About is also often used after verbs of movement, 
+      such as 'walk' and 'drive', andin phrasal verbs such as 'mess about' and 'set about', especially in
+      English.,skills,cources,native, hobbies,favourits anything else that is collected, stored, and 
+      communicated by schools or technology vendors on behalf of schools that is particular to that individual
+       student.This includes name, address, names of parents or guardians.</p><br>
+</div>
+<div class="column2"><br>
+ 
+            <a style="color:rgb(17, 17, 17);">  <h1> Feedback</h1><br></a>
+
+<form class="was-validated"> 
+<div class="row">
+<div class="col-md-12">
+<label for="name" class="form-label"><H2>Name:</H2></label><br>
+<input type="text" class="form-control" id="name" placeholder="Enter  Your Name" name="name" pattern="[a-z]{1,15}" required >
+<div class="valid-feedback">Valid.</div>
+<div class="invalid-feedback">Please  fill out this field.</div>
+</div><br><br>
+ 
+  
+<div class="col-md-12">
+<label for="email"><h2>Email:</h2></label><br>
+<input type="text" class="form-control"  id="pwd" placeholder="Enter Your Email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+<div class="valid-feedback">Valid.</div>
+<div class="invalid-feedback">Please  fill out this field.</div>
+</div><br><br>
+
+<div class="col-md-12">
+<label for="comment"><h2>Comments:</h2></label>
+<textarea class="form-control" rows="7" id="comment" placeholder="Enter comment" name="text" required></textarea></form>
+</div></div>
+<br><br>
+
+
+<button type="submit" class="btn btn-primary"  onclick="myFunction1()">Submit</button>
+<br>
+<script>
+function myFunction1() {
+  alert("fill in blank completely");
+}
+</script>
+  </div>
+  </div>
+<br>
+<br>
+<br>
+<a style="color:rgb(248, 68, 218) ;"><h3> My Resume Download</h3></a><br>
+<a href="files/siva.docx" download>
+  
+  <i class=" yellow download icon" style="font-size: 50px;"></i></a>
+  <br><br><br><br>
+  <p style="font-size:20px;font-family:serif ;"> information includes any information about my Facebook,
+imstagram,twitter,whatsapp,linked in anything else that is collected,stored and communicated by 
+schools or technology vendors on behalf of schools that is particular to that individual student.If you want to contact with me just message me online social medias.
+And then you informed any sutiuation for contact with an email.Send your mail for my account.</p><br><br>
+  <A href="#About" style="margin-right:10% ;"><i class="green chevron circle up icon" style="font-size: 40PX; margin-right: 10px;"></i></A>
+</div>
+</div><br>
+
+
+</div>
+</section><br>
+
+
+<section>
+<div id="body">
+<div id="footer">  
+<A style="color:rgb(24, 253, 253); font-family: 'Courier New', Courier, monospace;font-size: 30px;"><b>
+ Designed by a</a><br><br>
+<a href="https://www.facebook.com/siva.don.71271466"><i class="yellow facebook square icon"style="font-size:30px;" ></i></a>   
+<a href="https://www.instagram.com/siva_kalaivanan/"><i class="yellow instagram icon" style="font-size: 30px;"></i></a>
+<a href="https://www.linkedin.com/in/siva-r-417a16222/overlay/contact-info/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJpKXFKMUQs%2BNoayJPYcHaA%3D%3D">
+<i class="yellow linkedin icon" style="font-size: 30px;"></i> </a>
+ <a style="color: gold;font-size:30px;">....Siva....</a>
+<a href="https://web.telegram.org/z/"><i class=" yellow telegram plane icon" style="font-size: 30px;"></i></a> 
+<a href="https://twitter.com/home"><i class="yellow twitter icon" style="font-size: 30px;"></i></a>
+<a href="https://wa.me/qr/LIJYG44U55ZAF1"><i class="yellow whatsapp icon"style="font-size:30px;"></i></a><BR><br>
+<A href="#body"><i class=" yellow arrow alternate circle up icon" style="font-size: 40PX;"></i></A></div></div>
+</section>
+</body>
+<br>
+</html>
+
+
